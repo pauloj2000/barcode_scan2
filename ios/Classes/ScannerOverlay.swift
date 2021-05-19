@@ -104,8 +104,8 @@ class ScannerOverlay: UIView {
     private func calculateScanRect() -> CGRect {
         let rect = frame
         
-        let frameWidth = rect.size.width
-        var frameHeight = rect.size.height * 1.5
+        let frameWidth = rect.size.width * 1.7
+        var frameHeight = rect.size.height
         
         let isLandscape = frameWidth > frameHeight
         let widthOnPortrait = isLandscape ? frameHeight : frameWidth
