@@ -105,7 +105,7 @@ class ScannerOverlay: UIView {
         let rect = frame
         
         let frameWidth = rect.size.width
-        var frameHeight = rect.size.height
+        var frameHeight = rect.size.height * 1.5
         
         let isLandscape = frameWidth > frameHeight
         let widthOnPortrait = isLandscape ? frameHeight : frameWidth
